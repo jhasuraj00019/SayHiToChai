@@ -1,0 +1,32 @@
+import React from "react";
+import "./page2.css";
+
+const Drinks = (props) => {
+  const { drinks } = props;
+  return (
+    <>
+      <div className="items heading">
+        <h1>DRINKS</h1>
+      </div><br/>
+      {drinks.map((drinks) => {
+        return (
+          <div className="items">
+            <span className="left">
+              <img src={drinks.image} alt="brownie" />
+            </span>
+            <span className="rightpic">
+              <h3>
+                {drinks.name}
+                
+                {drinks.price}
+              </h3>
+              <p>{drinks.description}</p>
+            </span>
+          </div>
+        );
+      })}
+    </>
+  );
+};
+
+export default Drinks;

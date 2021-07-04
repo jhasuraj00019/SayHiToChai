@@ -1,0 +1,55 @@
+nav {
+  /* border: 5px solid white; */
+  padding: 20px 13%;
+  background-color: rgba(103, 102, 99, 0.9);
+  color: white;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 4;
+}
+
+nav a {
+  list-style: none;
+  /* border: 2px solid white; */
+  display: inline-block;
+  font-size: 1em;
+  padding: 5px 15px;
+  /* float: left; */
+}
+
+.fright {
+  float: right;
+}
+
+.hamburger,
+#toggle {
+  display: none;
+  color: white;
+}
+
+@media only screen and (max-width: 1400px) {
+  .hamburger {
+    display: block;
+    font-size: 32px;
+    width: 32px;
+    cursor: pointer;
+    /* clear: right; */
+    /* border: 2px solid white; */
+  }
+  nav a {
+    display: none;
+  }
+  .social {
+    display: none;
+  }
+
+  .responsiveNav nav a {
+    display: block;
+    /* border: 2px solid white; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    scroll-behavior: smooth;
+  }
+}

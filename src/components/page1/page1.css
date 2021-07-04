@@ -1,0 +1,234 @@
+*::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* * {
+    margin: 0;
+    padding: 0;
+  } */
+  
+  body {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .left {
+    float: left;
+  }
+/*   
+  nav {
+    border: 5px solid white;
+    padding: 20px 13%;
+    background-color: rgba(103, 102, 99, 0.9);
+    color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+  }
+  
+  nav a {
+    list-style: none;
+    border: 2px solid white;
+    display: inline-block;
+    font-size: 1em;
+    padding: 5px 15px;
+
+  } */
+  
+  .first,
+  .three,
+  .five {
+    /* border: 2px solid gray; */
+    margin: 0;
+    /* width:100%; */
+  
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 385px;
+    padding-bottom: 2.5%;
+    left: 0;
+    right: 0;
+  }
+  
+  .first {
+    background-image: url("https://t4.ftcdn.net/jpg/00/46/65/57/240_F_46655762_XIZKtod77W2uwomw2Wq8ZOOyYZlWHpxf.jpg");
+  }
+  
+  .three {
+    height: 25%;
+    /* border: 2px solid black; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGbOTSIC-99SXkPj7BZWLLZ7nfUmDJEz3YeA&usqp=CAU");
+    /* background-image: url('https://images5.alphacoders.com/880/thumb-1920-880687.jpg'); */
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzzlt8F6gmOFZ9i-s9Cf3sPfUrtBNrS7yVCCC8oXigcn3UJ2a3PoKj6bJbBchFdAt3JSU&usqp=CAU'); */
+    /* background-image: url("https://t4.ftcdn.net/jpg/01/84/99/21/240_F_184992156_gLzuctxxm7p4swt88Usskro5TIBjkmfH.jpg"); */
+    /* background-image: url("https://t4.ftcdn.net/jpg/04/20/38/79/240_F_420387914_jnKr22kJOMGrPnRUzZpWeoqinnDFhd2H.jpg"); */
+    /* background-image: url("https://t4.ftcdn.net/jpg/02/67/22/75/240_F_267227561_YZ7HJQmNaenH9xbW3ODygdaouNICFoTe.jpg"); */
+    /* background-image: url("https://t3.ftcdn.net/jpg/02/85/72/24/240_F_285722498_UCE9MxfEmGA6Qdg2phMUEffwwBAhzjKK.jpg"); */
+    /* background-image: url("https://ak.picdn.net/shutterstock/videos/2901487/thumb/1.jpg"); */
+  }
+  
+  .five {
+    border: 2px solid rgb(0, 0, 0);
+    /* background-image: url('https://coolwallpapers.me/picsup/3069771-cake_platter_tea-time.jpg'); */
+    background-image: url("https://t3.ftcdn.net/jpg/01/75/23/58/240_F_175235808_baV2VdXV1BSdRU6Lh4DaqtEcMYVXmsoD.jpg");
+    /* background-image: url("https://t4.ftcdn.net/jpg/02/84/97/69/240_F_284976947_NQiLal1gbyxb2qEUAzhjEuEJCPIiXY3k.jpg"); */
+    background-position: center;
+    background-attachment: scroll;
+  }
+  
+  .quote {
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* position: relative; */
+    width: fit-content;
+    margin: 0 auto 100px;
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    color: white;
+    z-index: 2;
+    filter: blur(0px);
+  }
+  
+  .title {
+    /* position: sticky; */
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 1.3em;
+  }
+  
+  .title h1 {
+    /* border: 2px solid white; */
+    width: 28%;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0 auto;
+    line-height: 0.8;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .title h1 span {
+    font-size: 150px;
+  }
+  
+  .title p {
+    font-weight: lighter;
+    /* width: fit-content; */
+    /* background-color: rgba(124, 122, 117, 0.3); */
+    /* text-decoration: underline; */
+    margin: auto;
+    margin-top: 170px;
+  }
+  
+  .card {
+    /* border: 2px solid black; */
+    width: 1050px;
+    height: 600px;
+    margin: 80px auto 40px;
+    color: #756f63;
+  }
+  
+  .pic {
+    /* border: 2px solid black; */
+    width: 46.8%;
+    height: 100%;
+  }
+  
+  .pic img {
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 100%;
+    margin: auto;
+  }
+  
+  .text {
+    /* border: 2px solid black; */
+    width: 46%;
+    padding: 50px 0px;
+    margin-right: 45px;
+    text-align: center;
+    font-weight: lighter;
+  }
+  
+  .text h1 {
+    /* border: 2px solid #756F63; */
+    font-size: 28px;
+    line-height: 0.6;
+    font-family: Playfair Display, serif;
+  }
+  .text p {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  /* Desert Section */
+  
+  .four .card .text {
+    /* border: 2px solid black; */
+    margin: none;
+    margin-left: 20px;
+  }
+  
+  .footer {
+    color: #756f63;
+    background-color: #f4f3f2;
+    border: 1px solid #f4f3f2;
+    width: 100%;
+  }
+  
+  form {
+    /* border: 2px solid black; */
+    width: 550px;
+    margin: auto;
+    text-align: left;
+    font-size: 14px;
+    padding: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 2px;
+  }
+  
+  button {
+    margin-top: 5px;
+    padding: 2px;
+    width: 60%;
+    color: white;
+    background-color: #64625f;
+  }
+  @media screen and (max-width: 700px) {
+    nav {
+      padding: 10px;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  
+    .pic {
+      display: block;
+      margin: 50px auto;
+    }
+  }
+  
