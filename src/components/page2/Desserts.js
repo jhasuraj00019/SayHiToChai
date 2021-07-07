@@ -8,7 +8,7 @@ const Dessert = (props) => {
       <div className="items heading">
         <h1>DESSERTS</h1>
       </div>
-      <br/>
+      <br />
       {desserts.map((desserts) => {
         return (
           <div className="items">
@@ -18,8 +18,7 @@ const Dessert = (props) => {
             <span className="rightpic">
               <h3>
                 {desserts.name}
-                ..................................................................................................
-                {desserts.price}
+                {desserts.price.padStart(28, "_")}
               </h3>
               <p>{desserts.description}</p>
             </span>

@@ -55,7 +55,7 @@ class Order extends React.Component {
   componentDidMount() {
     axios({
       method: "GET",
-      url: "http://localhost:8008/api/drinks",
+      url: "https://chaibackend.herokuapp.com/api/drinks",
       headers: { "Content-Type": "application/json" },
     })
       .then((response) => this.setState({ menu: response.data.drinks }))
@@ -67,7 +67,7 @@ class Order extends React.Component {
 
     axios({
       method: "GET",
-      url: `http://localhost:8008/api/${value}`,
+      url: `https://chaibackend.herokuapp.com/api/${value}`,
       headers: { "Content-Type": "application/json" },
     })
       .then((response) => {
@@ -302,6 +302,7 @@ class Order extends React.Component {
                     })}
                   </div>
                 </div>
+                <hr className="listHr"/>
                 <div className="subTotal">SubTotal- &#8377;{subTotal}</div>
                 <div class="ordbtn">
                   <button id="orderNowBtn">Order Now</button>

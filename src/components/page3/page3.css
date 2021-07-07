@@ -58,7 +58,7 @@
 }
 
 .p3mid p {
-  /* font-size: 14px; */
+  font-size: 15px;
   font-weight: bolder;
   font-family: Nunito Sans, sans-serif;
 }
@@ -136,11 +136,17 @@ option {
   overflow: hidden;
   text-overflow: ellipsis;
   float: left;
-  width: 75%;
+  width: 60%;
 }
 
 .remove {
   display: none;
+}
+
+.listHr{
+  width: 80%;
+  height: 1.5px;
+  background-color: rgb(145, 135, 102);
 }
 
 .subTotal {
@@ -227,7 +233,7 @@ button {
   overflow: hidden;
 }
 #imageContainer {
-  border: 0.5px solid rgb(199, 196, 196);
+  border: 0.5px solid rgba(199, 196, 196, 0.151);
   height: 68%;
   transition: height 0.5s, margin 0.5s, ease-out;
   background-size: cover;

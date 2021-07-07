@@ -7,7 +7,8 @@ const Drinks = (props) => {
     <>
       <div className="items heading">
         <h1>DRINKS</h1>
-      </div><br/>
+      </div>
+      <br />
       {drinks.map((drinks) => {
         return (
           <div className="items">
@@ -17,8 +18,7 @@ const Drinks = (props) => {
             <span className="rightpic">
               <h3>
                 {drinks.name}
-                
-                {drinks.price}
+                {drinks.price.padStart(28, '_')}
               </h3>
               <p>{drinks.description}</p>
             </span>

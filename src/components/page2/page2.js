@@ -15,7 +15,7 @@ class Menu extends React.Component {
   componentDidMount() {
     axios({
       method: "GET",
-      url: "http://localhost:8008/api/drinks",
+      url: "https://chaibackend.herokuapp.com/api/drinks",
       headers: { "Content-Type": "application/json" },
     })
       .then((response) => this.setState({ drinks: response.data.drinks }))
@@ -23,7 +23,7 @@ class Menu extends React.Component {
 
     axios({
       method: "GET",
-      url: "http://localhost:8008/api/desserts",
+      url: "https://chaibackend.herokuapp.com/api/desserts",
       headers: { "Content-Type": "application/json" },
     })
       .then((response) => this.setState({ desserts: response.data.desserts }))

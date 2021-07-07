@@ -99,7 +99,7 @@ const PageOne = function () {
             />
           </div>
           <div className="text left">
-            <h1>Deserts & Baverages</h1>
+            <h1>Deserts & Beverages</h1>
             <hr style={{ margin: "auto", width: "100px" }} />
             <p>For the things that Get you Going</p>
             <p>
