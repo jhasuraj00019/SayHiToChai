@@ -17,8 +17,9 @@ const Drinks = (props) => {
             </span>
             <span className="rightpic">
               <h3>
+                &#8377;
                 {drinks.name}
-                {drinks.price.padStart(28, '_')}
+                {drinks.price.padStart(28, "_")}
               </h3>
               <p>{drinks.description}</p>
             </span>
